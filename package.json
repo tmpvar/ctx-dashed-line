@@ -3,7 +3,7 @@
     "tape": "^4.0.0"
   },
   "name": "ctx-dashed-line",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "draw a dashed line in html5 2d canvas",
   "main": "dashed-line.js",
   "directories": {
