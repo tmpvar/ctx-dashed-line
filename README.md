@@ -4,6 +4,8 @@ draw a dashed line in html5 2d canvas
 
 ## install
 
+`npm install ctx-dashed-line`
+
 ## use
 
 ```javascript
