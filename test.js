@@ -14,7 +14,9 @@ test('basic dashed line', function(t) {
     }
   }
 
-  dashedLine(ctx, [0, 0], [10, 0], 1);
+  var out = dashedLine(ctx, [0, 0], [10, 0], 1);
+
+  t.ok(out === ctx, 'returns ctx');
 
   t.deepEqual(movements, [
     [ 'm', 0, 0 ],

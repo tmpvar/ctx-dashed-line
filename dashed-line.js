@@ -34,4 +34,6 @@ function dashedLine(ctx, start, end, dashLen) {
     ctx[q % 2 == 0 ? 'moveTo' : 'lineTo'](sx, sy);
   }
   ctx[q % 2 == 0 ? 'moveTo' : 'lineTo'](sx, sy);
+
+  return ctx;
 };
